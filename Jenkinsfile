@@ -45,7 +45,7 @@ pipeline {
                         AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} \
                         AWS_REGION=us-east-2 \
                         //aws s3 ls clouductivity-demo"
-                        aws s3 cp index.html "s3://static-jenkins-pipeline/index.html"
+                        aws s3 cp index.html static-jenkins-pipeline/index.html"
                 }
             }
         }  
